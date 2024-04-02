@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c9c9c9;
+}
+header {
+    background: linear-gradient(135deg, #510097, #000000);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #555;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.section{
+    border-radius: 15px;
+}
+
+.gallery {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  .gallery img {
+    width: 200px; /* Largura das imagens */
+    height: auto; /* Altura ajustada automaticamente */
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.514);
+
+  }
+
+  .logo {
+    width: 280px; /* Largura da imagem */
+    height: auto; /* Altura ajustada automaticamente */
+  }
+
+h2 {
+    color: #333;
+}
+footer {
+    background: linear-gradient(135deg, #510097, #000000);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#whatsapp-icon {
+    width: 50px; /* Largura do ícone do WhatsApp */
+    height: auto; /* Altura ajustada automaticamente */
+  }
+
+  .article{
+    width: 230px;
+    height: auto;
+    background: linear-gradient(to bottom, #510097, #000000);
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.578);
+    font-weight: bold;
+    margin-top: 50px;
+  }
+
+  .img-article{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .div-article{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .section-article{
+    padding-bottom: 50px;
+  }
+
+  .link-contato{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .text-card{
+    color: white;
+  }
